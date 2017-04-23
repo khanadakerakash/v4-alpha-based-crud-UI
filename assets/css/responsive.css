@@ -1,0 +1,47 @@
+/* ==================================================================
+
+* Media Queries
+
+TOC :
+
+1. screenwidth greater than 1200px (Large Screens)
+2. screenwidth greater than 1199px (Medium Screen/Large Tablets)
+3. screenwidth less than 991px (Mobile wide/Smaller Tablets)
+4. screenwidth less than 768px (Mobile wide/Smaller Tablets)
+5. screenwidth greater than 480px (Medium Screen Mobile)
+
+/* ================================================================== */
+
+/* lg */
+@media (min-width: 1200px) {
+  .footer{
+      background-color: #F7F7F7;
+      position: fixed;
+      bottom: 0;
+      padding: 10px;
+  }
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer{
+      position: fixed;
+      bottom: 0;
+  }
+}
+
+/* xs */
+@media (max-width: 767px) {
+  .footer{
+      background-color: #F7F7F7;
+      padding: 10px;
+  }
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+  .footer{
+      background-color: #F7F7F7;
+      padding: 10px;
+  }
+}

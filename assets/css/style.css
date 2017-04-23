@@ -1,0 +1,32 @@
+.header{
+		background-color: #F7F7F7;
+    padding: 5px;
+		margin-bottom: 20px;
+}
+
+/* --- FORM -- */
+.form-group .form-control {
+    padding: 7px 12px;
+    box-shadow: none;
+    background: #FCFCFC;
+}
+
+textarea{
+    resize: none;
+    padding: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: 0 none;
+    border-color: #4CAF50;
+}
+
+/* -- DATA TABLE -- */
+
+
+/* --- FOOTER --- */
+.footer{
+    background-color: #F7F7F7;
+    padding: 10px;
+}
